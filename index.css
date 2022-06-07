@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body, html {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.app-container {
+    height: 100vh;
+    padding: 0 8rem;
+}
+
+.header-logo {
+    width: 7rem;
+    margin: 1rem 0;
+}
+
+.user-avatar {
+    width: 5rem;
+    margin: 1rem 0;
+}
+
+.first-section {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1px;
+    padding: 1rem;
+    height: 15rem;
+    background-color: rgb(105, 105, 105);
+    font-weight: 200;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 0.7rem 0;
+    min-width: 14rem;
+    padding: 0.4rem;
+    border: 1px solid lightgray;
+}
+
+.submit-button {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    color: #616161;
+    cursor: pointer;
+    -webkit-box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    -moz-box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    -ms-box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    -o-box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);    
+}
+
+.submit-button:hover {
+    background-color: #cfcfcf;
+    color: white;
+}
+
+.footer-icons {
+    width: 70%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 1.3rem;
+    cursor: pointer;
+}
+
+.footer-logo {
+    width: 3.3rem;
+    margin-left: 3rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .app-container {
+      padding: 0 1rem;
+    }
+
+    .first-section {
+        font-size: 0.6rem;
+    }
+
+
+    .user-avatar {
+        width: 4rem;
+    }
+
+    .second-section {
+        margin: 0;
+    }
+
+    .footer-icons {
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .footer-logo {
+        margin-left: 1rem;
+    }
+}
