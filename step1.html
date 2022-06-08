@@ -1,0 +1,146 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./step1.css" media="screen" />
+    <title>Blade template</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="first-section">
+        <img
+          class="header-logo"
+          src="./images/sm-logo-removebg-preview.png"
+          alt="SM logo"
+        />
+        <h1>Matriz de eleição de grade</h1>
+      </div>
+
+      <!-- ------------------------------------------------------------------------ -->
+      <div class="second-section">
+        <header class="school-select">
+          <h4>Digite o código da Escola:</h4>
+          <select name="school-code">
+            <option value="0">SP-SP1</option>
+            <option value="1">SP-SP2</option>
+          </select>
+          <select name="school">
+            <option value="0">1677 - CENTRO EDUCACIONAL ATLANTICO LTDA</option>
+            <option value="1">1147 - CENTRO EDUCACIONAL ATLANTICO SUL</option>
+          </select>
+        </header>
+        <hr />
+        <div class="stepper">
+          <div class="steps">
+            <div class="step">
+              <div class="current">1</div>
+              <div class="body-2">Informações Gerais</div>
+            </div>
+            <div class="step">
+              <div>2</div>
+              <div class="body-2">Selecionar Cadernos</div>
+            </div>
+            <div class="step">
+              <div>3</div>
+              <div class="body-2">Informações do Cadernos</div>
+            </div>
+            <div class="step">
+              <div>4</div>
+              <div class="body-2">Revisar</div>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <form>
+          <div class="field">
+            <span>Tipo de entrega:</span>
+            <select name="delivery-type">
+              <option value="0">B2B</option>
+            </select>
+          </div>
+          <div class="field">
+            <span>Kit:</span>
+            <select name="kit">
+              <option value="0">SD + PLATAFORMA</option>
+            </select>
+          </div>
+          <div class="field">
+            <span>Desconto Pai (%):</span>
+            <input type="number" placeholder="20%" />
+          </div>
+          <div class="field">
+            <span>Preço Bruto:</span>
+            <div class="input-group">
+              <input type="number" placeholder="1. EM" />
+              <input type="number" placeholder="2. EM" />
+              <input type="number" placeholder="3. EM" />
+            </div>
+          </div>
+          <div class="field">
+            <span>Preço Líquido:</span>
+            <div class="input-group">
+              <input type="number" placeholder="1. EM" />
+              <input type="number" placeholder="2. EM" />
+              <input type="number" placeholder="3. EM" />
+            </div>
+          </div>
+          <div class="field">
+            <span>Valor Negociado:</span>
+            <div class="input-group">
+              <input type="number" placeholder="1. EM" />
+              <input type="number" placeholder="2. EM" />
+              <input type="number" placeholder="3. EM" />
+            </div>
+          </div>
+          <div class="field">
+            <span>Retribuitivo Escola (%):</span>
+            <input type="number" placeholder="10%" />
+          </div>
+          <div class="form-footer">
+            <button>Próximo</button>
+          </div>
+        </form>
+        <!-- ------------------------------------------------------------------------ -->
+
+        <div class="footer-icons">
+          <div class="icons">
+            <a href="https://facebook.com" target="_blank">
+              <img
+                class="social-icon"
+                src="./images/facebook-icon.svg"
+                alt="facebook icon"
+              />
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <img
+                class="social-icon"
+                src="./images/twitter-icon.svg"
+                alt="twitter icon"
+              />
+            </a>
+            <a href="https://google.com" target="_blank">
+              <img
+                class="social-icon"
+                src="./images/website-icon.svg"
+                alt="website icon"
+              />
+            </a>
+          </div>
+          <img
+            class="footer-logo"
+            src="./images/sm-logo-removebg-preview.png"
+            alt="logo"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
