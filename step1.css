@@ -1,0 +1,90 @@
+.school-select {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.school-select h4 {
+  font-weight: 500;
+  align-self: center;
+}
+
+.school-select select {
+  margin-bottom: 1rem;
+}
+
+.stepper {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.stepper > hr {
+  width: 470px;
+  height: 1px;
+  border-width: 0px;
+  background: gray;
+  position: absolute;
+  top: 17px;
+  left: 73px;
+  z-index: 0;
+}
+
+.steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+  z-index: 1;
+}
+
+.step .current {
+  background: black !important;
+}
+
+.step > :first-child {
+  margin-bottom: 1rem;
+  background: gray;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.field {
+  display: flex;
+  max-width: 550px;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+
+.field > span {
+  margin-right: 10px;
+}
+
+.field > select {
+  width: 353px;
+}
+
+.field > input {
+  width: 353px;
+}
+
+.field .input-group input {
+  width: 115px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: center;
+}
